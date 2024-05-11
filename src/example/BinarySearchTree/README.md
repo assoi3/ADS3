@@ -1,6 +1,6 @@
 # JAVA Algorithms and Data Structure course Assignment #3
 
-Instructor: Khaimuldin Nursultan
+ ** Instructor: Khaimuldin Nursultan **
 ---
 
 
@@ -9,8 +9,7 @@ Instructor: Khaimuldin Nursultan
 
 
 
-
-# TASK:Binary Search Tree
+** TASK:Binary Search Tree **
 
 ```
 Value get(Key key)  
