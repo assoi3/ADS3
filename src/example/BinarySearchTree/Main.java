@@ -186,13 +186,13 @@ public class BST< Key extends Comparable<Key>,Value>{
 
 
 public static void main(String[] args) {
-    BST<Integer, Integer> bit = new BST<>();
-    bit.put(100, 100);
-    bit.put(45, 45);
-    bit.put(20, 20);
-    bit.put(95, 95);
+    BST<Integer, Integer> bst = new BST<>();
+    bst.put(100, 100);
+    bst.put(45, 45);
+    bst.put(20, 20);
+    bst.put(95, 95);
 
-    bit.entries().forEach(entry -> 
+    bst.entries().forEach(entry -> 
     
           System.out.println("Key is " + entry.getKey() + "and value is "  + entry.getValue())); 
 }
