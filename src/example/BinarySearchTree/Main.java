@@ -92,9 +92,9 @@ public class BST< Key extends Comparable<Key>,Value>{
         
         // Implement a traverse function 
         if(key < x.data){
-            x.left = delteNode(key, x.left);}
+            x.left = deleteNode(key, x.left);}
         else if (key> node.data){
-            x.right = deletNode(key, x.right);
+            x.right = deleteNode(key, x.right);
         }
         
 
