@@ -6,9 +6,9 @@ Instructor: Khaimuldin Nursultan
 
 
 ## Menu of content
-[MyHashTable] #MyHashTable
-[MyTestingClass] #MyTestingClass
-[Object] #Object
+- [MyHashTable]  (##MyHashTable)
+- [MyTestingClass] (##MyHashTableTest)
+- [Object] (#Object)
 
 
 
