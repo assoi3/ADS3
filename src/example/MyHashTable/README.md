@@ -16,7 +16,7 @@ Instructor: Khaimuldin Nursultan
 # TASK:MyHashTable
 
 
-## MyHashTable
+# MyHashTable
 ```
 Value get(Key key)  
 ``` 
@@ -58,7 +58,7 @@ int hash(K key)
 - ```hashCode()```operation .
 ---
 
-## Test the hash table
+# Test the hash table
 
 User uses ```MyTestingClass``` to test the code working. 
 In order to do that set the random variables with restricted size and get the hash value and key.
@@ -74,6 +74,6 @@ In order to do that set the random variables with restricted size and get the ha
 
 ---
 
-  ##  ```hashCode()``` implementation
+  # ```hashCode()``` implementation
 
 In class 'MytestingClass' user has the code for hashCode().
