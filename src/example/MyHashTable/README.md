@@ -5,18 +5,12 @@ Instructor: Khaimuldin Nursultan
 
 
 
-## Menu of content
-
-- [MyHashTable]  (#MyHashTable)
-- [MyTestingClass] (#MyHashTableTest)
-- [Object] (#Object)
-
 
 
 # TASK:MyHashTable
 
 
-# MyHashTable
+## MyHashTable
 ```
 Value get(Key key)  
 ``` 
@@ -58,7 +52,7 @@ int hash(K key)
 - ```hashCode()```operation .
 ---
 
-# Test the hash table
+## Test the hash table
 
 User uses ```MyTestingClass``` to test the code working. 
 In order to do that set the random variables with restricted size and get the hash value and key.
