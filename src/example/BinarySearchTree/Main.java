@@ -173,38 +173,8 @@ public class BST< Key extends Comparable<Key>,Value>{
 
 
 
-        public void insertNode(int key){
-            Node newNode = new Node(key);
-
-            if(root == null){
-                root = newNode;
-                return;
-            
-        }
-            Node node =root;
-            while(true){
-
-                if(key< node.data){
-                    if(node.left != null){
-                        node = node.left;
-                    } else{
-                        node.left = newNode;
-                        return;
-                    }
-                } else if(key > node.data){
-                    if(node.right != null) {
-                        node = node.right;
-                    } else{
-
-                        node.right = newNode;
-                        return;
-                    }
-                } else {
-
-                    throw new IllegalArgumentExcemtionz("BST already contains a node with key " + key);
-                }
                 
-            }
+            
 
 
 
@@ -212,7 +182,7 @@ public class BST< Key extends Comparable<Key>,Value>{
 
 
 }
-}
+
 
 
 public static void main(String[] args) {
